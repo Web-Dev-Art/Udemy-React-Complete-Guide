@@ -2,11 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="769bd6cb-0082-4fd8-bb9b-1011cde6c8a9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Expenses.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Expenses.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NewExpense/ExpenseForm.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NewExpense/ExpenseForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NewExpense/NewExpense.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NewExpense/NewExpense.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ExpensesFilter.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ExpensesFilter.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ExpenseItem.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ExpenseItem.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ExpenseItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ExpenseItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Expenses.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Expenses.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +48,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -52,7 +59,7 @@
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -88,12 +95,18 @@
       <workItem from="1636391860564" duration="61000" />
       <workItem from="1638856508634" duration="3014000" />
       <workItem from="1639118541238" duration="5880000" />
-      <workItem from="1639203842614" duration="4485000" />
+      <workItem from="1639203842614" duration="6555000" />
+      <workItem from="1639218836335" duration="6143000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="21" key="#ESLint" timestamp="1639119353275">
@@ -104,10 +117,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="17" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1635146709992" />
-    <state x="184" y="0" key="SettingsEditor" timestamp="1638857845979">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="259" y="0" key="SettingsEditor" timestamp="1639218886684">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1638857845979" />
+    <state x="259" y="0" key="SettingsEditor/1920.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1639218886684" />
     <state x="531" y="266" key="com.intellij.ide.util.TipDialog" timestamp="1639203845909">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -117,10 +131,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="889" y="301" key="run.anything.popup/1920.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1639206378886" />
-    <state x="486" y="70" width="945" height="969" key="search.everywhere.popup" timestamp="1639206242617">
+    <state x="486" y="70" width="945" height="969" key="search.everywhere.popup" timestamp="1639222162270">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1638857928171" />
-    <state x="486" y="70" width="945" height="969" key="search.everywhere.popup/1920.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1639206242617" />
+    <state x="486" y="70" width="945" height="969" key="search.everywhere.popup/1920.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1639222162270" />
   </component>
 </project>

@@ -6,9 +6,8 @@
     padding: .5rem;
     box-shadow: 1px 1px 5px rgba(0,0,0,.5);
     margin: 1rem 0;
+    align-items: center;
 }
-
-
 
 .expense-item__description {
     color: white;
