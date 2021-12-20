@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="769bd6cb-0082-4fd8-bb9b-1011cde6c8a9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NewExpense/ExpenseForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/NewExpense/ExpenseForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NewExpense/NewExpense.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/NewExpense/NewExpense.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ExpenseItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ExpenseItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Expenses.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Expenses.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ExpensesFilter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ExpensesFilter.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +89,8 @@
       <workItem from="1638856508634" duration="3014000" />
       <workItem from="1639118541238" duration="5880000" />
       <workItem from="1639203842614" duration="6555000" />
-      <workItem from="1639218836335" duration="7449000" />
+      <workItem from="1639218836335" duration="10150000" />
+      <workItem from="1639977299339" duration="3957000" />
     </task>
     <servers />
   </component>
@@ -101,7 +102,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -121,24 +124,29 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="17" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1635146709992" />
+    <state x="120" y="196" width="1153" height="578" maximized="true" key="DiffContextDialog" timestamp="1639978616097">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="120" y="196" width="1153" height="578" maximized="true" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1639978616097" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/1920.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1639230263726" />
     <state x="259" y="0" key="SettingsEditor" timestamp="1639218886684">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1638857845979" />
     <state x="259" y="0" key="SettingsEditor/1920.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1639218886684" />
-    <state x="531" y="266" key="com.intellij.ide.util.TipDialog" timestamp="1639203845909">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="378" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1639977296889">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="378" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1636391864162" />
+    <state x="378" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1639977296889" />
     <state x="531" y="266" key="com.intellij.ide.util.TipDialog/1920.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1639203845909" />
     <state x="889" y="301" key="run.anything.popup" timestamp="1639206378886">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="889" y="301" key="run.anything.popup/1920.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1639206378886" />
-    <state x="486" y="70" width="945" height="969" key="search.everywhere.popup" timestamp="1639222162270">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1639977376473">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1638857928171" />
-    <state x="486" y="70" width="945" height="969" key="search.everywhere.popup/1920.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1639222162270" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1639977376473" />
+    <state x="486" y="70" width="945" height="969" key="search.everywhere.popup/1920.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1639231494648" />
   </component>
 </project>
