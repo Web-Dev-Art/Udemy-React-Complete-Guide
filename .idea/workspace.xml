@@ -2,10 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="769bd6cb-0082-4fd8-bb9b-1011cde6c8a9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Chart/Chart.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Chart/Chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Chart/ChartBar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Chart/ChartBar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Expenses/ExpensesChart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Expenses/ExpensesList.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ExpenseItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ExpenseItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Expenses.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Expenses.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ExpensesFilter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ExpensesFilter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NewExpense/ExpenseForm.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NewExpense/ExpenseForm.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NewExpense/ExpenseForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NewExpense/ExpenseForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NewExpense/NewExpense.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NewExpense/NewExpense.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NewExpense/NewExpense.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NewExpense/NewExpense.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UI/Card.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Card.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UI/Card.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Card.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ExpenseDate.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Expenses/ExpenseDate.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ExpenseDate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Expenses/ExpenseDate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ExpenseItem.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Expenses/ExpenseItem.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ExpenseItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Expenses/ExpenseItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Expenses.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Expenses/Expenses.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Expenses.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Expenses/Expenses.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ExpensesFilter.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Expenses/ExpensesFilter.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ExpensesFilter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Expenses/ExpensesFilter.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +74,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\udemy-react-complete-guide\test\src\components" />
+      <recent name="C:\xampp\htdocs\udemy-react-complete-guide\test\src\components\Expenses" />
       <recent name="C:\xampp\htdocs\udemy-react-complete-guide\src" />
     </key>
   </component>
@@ -90,7 +110,7 @@
       <workItem from="1639118541238" duration="5880000" />
       <workItem from="1639203842614" duration="6555000" />
       <workItem from="1639218836335" duration="10150000" />
-      <workItem from="1639977299339" duration="3957000" />
+      <workItem from="1639977299339" duration="15861000" />
     </task>
     <servers />
   </component>
@@ -139,14 +159,22 @@
     </state>
     <state x="378" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1639977296889" />
     <state x="531" y="266" key="com.intellij.ide.util.TipDialog/1920.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1639203845909" />
+    <state x="380" y="96" width="736" height="606" key="find.popup" timestamp="1639986551695">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="380" y="96" width="736" height="606" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1639986551695" />
+    <state x="664" y="150" width="700" height="530" key="recent.locations.popup" timestamp="1639985901582">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="664" y="150" width="700" height="530" key="recent.locations.popup/0.0.1366.728@0.0.1366.728" timestamp="1639985901582" />
     <state x="889" y="301" key="run.anything.popup" timestamp="1639206378886">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="889" y="301" key="run.anything.popup/1920.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1639206378886" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1639977376473">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1639994815369">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1639977376473" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1639994815369" />
     <state x="486" y="70" width="945" height="969" key="search.everywhere.popup/1920.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1639231494648" />
   </component>
 </project>

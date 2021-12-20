@@ -1,0 +1,10 @@
+.chart {
+    background-color: #F8DFFF;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    height: 10rem;
+    padding: 1rem;
+}
+
