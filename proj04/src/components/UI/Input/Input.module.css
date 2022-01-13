@@ -1,0 +1,36 @@
+.control {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+
+.control label {
+    font-weight: bold;
+    color: #444;
+}
+
+.control input {
+    width: 75%;
+    border: 1px solid #ccc;
+    font: inherit;
+    border-radius: 6px;
+    padding: .35rem;
+}
+
+.control input:focus {
+    background-color: #cb14e2;
+    border: 1px solid #b113c9;
+    outline: none;
+}
+
+.control.invalid input {
+    background-color: #fbdada;
+    border-color: red;
+}
+
+@media (min-width: 768px) {
+    .control {
+        align-items: center;
+        flex-direction: row;
+    }
+}
