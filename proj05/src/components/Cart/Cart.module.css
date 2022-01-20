@@ -1,0 +1,49 @@
+.cart-items {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+
+.actions {
+    text-align: right;
+}
+
+.actions button {
+    border: 1px solid #8a2b06;
+    background-color: #8a2b06;
+    color: white;
+    border-radius: 25px;
+    padding: .5rem 2rem;
+    margin-left: 1rem;
+    cursor: pointer;
+    font: inherit;
+}
+
+.actions button:hover,
+.actions button:active {
+    background-color: #591901;
+}
+
+.actions .button--alt {
+    border: 1px solid #591901;
+    background-color: white;
+    color: #591901;
+    border-radius: 25px;
+    padding: .5rem 2rem;
+    cursor: pointer;
+}
+
+.actions .button--alt:hover,
+.actions .button--alt:active {
+    background-color: #591901;
+    color: white;
+}
+
